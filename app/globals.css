@@ -15,15 +15,27 @@
   /* -------------------------------------------------- */
   /* Branding Colors - change these to customize brand */
   /* -------------------------------------------------- */
-  --color-primary: rgb(37 99 235); /* Vibrant blue (blue-600) */
-  --color-primary-foreground: rgb(239 246 255); /* Very light blue (blue-50) */
-  --color-primary-hover: rgb(29 78 216); /* Blue-700 */
-  --color-primary-light: rgb(59 130 246); /* Blue-500 */
-  --color-primary-dark: rgb(30 64 175); /* Blue-700 */
+  --color-primary: rgb(14 165 233); /* Medium sky blue from logo P (sky-500) */
+  --color-primary-foreground: rgb(255 255 255); /* White */
+  --color-primary-hover: rgb(2 132 199); /* Sky-600 */
+  --color-primary-light: rgb(56 189 248); /* Sky-400 */
+  --color-primary-dark: rgb(8 145 178); /* Sky-600 */
 
-  /* Gradient (often part of brand treatment) */
-  --color-gradient-start: rgb(75 85 99); /* Gray-600 */
-  --color-gradient-end: rgb(0 0 0); /* Black */
+  /* Accent Colors from logo L */
+  --color-accent: rgb(163 230 53); /* Bright lime green from logo L (lime-400) */
+  --color-accent-foreground: rgb(0 0 0); /* Black */
+  --color-accent-hover: rgb(132 204 22); /* Lime-500 */
+  --color-accent-light: rgb(190 242 100); /* Lime-300 */
+  --color-accent-dark: rgb(101 163 13); /* Lime-600 */
+
+  /* Metallic silver-grey from logo bevels */
+  --color-metallic: rgb(156 163 175); /* Metallic silver-grey (gray-400) */
+  --color-metallic-light: rgb(209 213 219); /* Light metallic (gray-300) */
+  --color-metallic-dark: rgb(107 114 128); /* Dark metallic (gray-500) */
+
+  /* Gradient (matches logo black background) */
+  --color-gradient-start: rgb(0 0 0); /* Black */
+  --color-gradient-end: rgb(17 24 39); /* Dark gray-900 */
 
   /* -------------------------------------------------- */
   /* Semantic Colors - can be adjusted but usually follow
@@ -107,13 +119,25 @@
   /* -------------------------------------------------- */
   /* Branding Colors (Dark) */
   /* -------------------------------------------------- */
-  --color-primary: rgb(59 130 246);
-  --color-primary-foreground: rgb(30 41 59);
-  --color-primary-hover: rgb(96 165 250);
+  --color-primary: rgb(56 189 248); /* Lighter sky blue for dark mode (sky-400) */
+  --color-primary-foreground: rgb(0 0 0); /* Black */
+  --color-primary-hover: rgb(14 165 233); /* Sky-500 */
+
+  /* Accent Colors (Dark) */
+  --color-accent: rgb(190 242 100); /* Brighter lime green for dark mode (lime-300) */
+  --color-accent-foreground: rgb(0 0 0); /* Black */
+  --color-accent-hover: rgb(163 230 53); /* Lime-400 */
+  --color-accent-light: rgb(217 249 157); /* Lime-200 */
+  --color-accent-dark: rgb(132 204 22); /* Lime-500 */
+
+  /* Metallic silver-grey (Dark) */
+  --color-metallic: rgb(107 114 128); /* Gray-500 */
+  --color-metallic-light: rgb(156 163 175); /* Gray-400 */
+  --color-metallic-dark: rgb(75 85 99); /* Gray-600 */
 
   /* Gradient (brand-like treatment if used) */
-  --color-gradient-start: rgb(75 85 99);
-  --color-gradient-end: rgb(0 0 0);
+  --color-gradient-start: rgb(0 0 0); /* Black */
+  --color-gradient-end: rgb(17 24 39); /* Gray-900 */
 
   /* -------------------------------------------------- */
   /* Semantic Colors (Dark) */
@@ -177,6 +201,14 @@
   --color-primary-hover: var(--color-primary-hover);
   --color-primary-light: var(--color-primary-light);
   --color-primary-dark: var(--color-primary-dark);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-accent-light: var(--color-accent-light);
+  --color-accent-dark: var(--color-accent-dark);
+  --color-metallic: var(--color-metallic);
+  --color-metallic-light: var(--color-metallic-light);
+  --color-metallic-dark: var(--color-metallic-dark);
   --color-secondary: var(--color-secondary);
   --color-secondary-foreground: var(--color-secondary-foreground);
   --color-secondary-hover: var(--color-secondary-hover);
