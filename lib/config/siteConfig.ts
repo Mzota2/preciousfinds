@@ -18,7 +18,7 @@ export interface SiteConfig {
 export const SITE_CONFIG: SiteConfig = {
   appTitle: process.env.NEXT_PUBLIC_APP_TITLE || 'Precious Finds',
   appDescription:
-    process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Your trusted online shopping destination for quality products and services',
+    process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Your Trusted Destination for Premium Electronics. Welcome to Precious Finds, where cutting-edge technology meets exceptional value. We specialize in bringing you the latest and greatest in mobile technology, with a curated selection of smartphones that cater to every need and budget',
   brandImageUrl:
     process.env.NEXT_PUBLIC_BRAND_IMAGE_URL || 'https://preciousfinds.vercel.app/logo.png',
   defaultBusinessName: process.env.NEXT_PUBLIC_DEFAULT_BUSINESS_NAME || 'Precious Finds',
